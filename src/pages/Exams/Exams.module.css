@@ -1,0 +1,30 @@
+.examContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.mainTitle {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.examsList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+  .mainTitle {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mainTitle {
+    font-size: 24px;
+  }
+}
